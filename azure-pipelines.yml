@@ -1,22 +1,10 @@
-<<<<<<< HEAD
-=======
-# ASP.NET Core
-# Build and test ASP.NET Core projects targeting .NET Core.
-# Add steps that run tests, create a NuGet package, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
-
->>>>>>> 1694e3e5239dea493f11bf42c1befec9c7f195f4
 trigger:
 - '*'
 
 pool:
   vmImage: 'ubuntu-18.04'
   demands:
-<<<<<<< HEAD
   - npm
-=======
-    - npm
->>>>>>> 1694e3e5239dea493f11bf42c1befec9c7f195f4
 
 variables:
   buildConfiguration: 'Release'
